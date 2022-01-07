@@ -1,19 +1,13 @@
-body {
-  background: #010440;
-}
-
 h1 {
   font-family: 'The Nautigal', cursive;
   font-size: 200px;
   text-align: center;
   margin-top: 5%;
   margin: auto;
-  color: #F2C744;
 }
 
-footer {
-  margin-top: 25%;
-  margin-bottom: 2%;
+blockquote {
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
-  color: white;
+  margin: auto;
 }
