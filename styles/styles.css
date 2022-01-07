@@ -2,6 +2,12 @@ h1 {
   font-family: 'The Nautigal', cursive;
   font-size: 200px;
   text-align: center;
+  margin-top: 5%;
   margin: auto;
-  margin-bottom: 300px;
+}
+
+footer {
+  margin-top: 25%;
+  margin-bottom: 2%;
+  text-align: center;
 }
