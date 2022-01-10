@@ -2,12 +2,27 @@ h1 {
   font-family: 'The Nautigal', cursive;
   font-size: 200px;
   text-align: center;
-  margin-top: 5%;
+  padding-top: 5%;
   margin: auto;
+}
+
+h3 {
+  text-align: center;
+  direction: rtl;
 }
 
 blockquote {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   margin: auto;
+  padding-top: 5%;
+  padding-bottom: 250px;
+}
+
+footer {
+  padding-left: 40%;
+  padding-right: 40%;
+  position: relative;
+  text-align: center;
+  bottom: 1%;
 }
