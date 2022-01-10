@@ -8,6 +8,7 @@ h1 {
 
 h3 {
   text-align: center;
+  font-family: 'Noto Kufi Arabic', sans-serif;
   direction: rtl;
 }
 
@@ -20,6 +21,7 @@ blockquote {
 }
 
 footer {
+  font-family: 'Montserrat', sans-serif;
   padding-left: 40%;
   padding-right: 40%;
   position: relative;
