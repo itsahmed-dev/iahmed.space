@@ -17,14 +17,12 @@ blockquote {
   text-align: center;
   margin: auto;
   padding-top: 5%;
-  padding-bottom: 250px;
 }
 
 footer {
+  position: fixed;
+  bottom: 0;
   font-family: 'Montserrat', sans-serif;
-  padding-left: 40%;
-  padding-right: 40%;
-  position: relative;
+  width: 100%;
   text-align: center;
-  bottom: 1%;
 }
