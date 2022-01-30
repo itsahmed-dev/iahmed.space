@@ -1,3 +1,6 @@
-# ignore ALL files in a directory
+# ignore directories
 temp/
 cool/
+
+# igore files
+iahmed.space.code-workspace
