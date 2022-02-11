@@ -3,6 +3,7 @@ html, body {
     overflow-y: hidden;
     height: 100%;
     width: 100%;
+    position: relative;
 }
 
 h1 {
@@ -11,26 +12,31 @@ h1 {
   text-align: center;
   padding-top: 5%;
   margin: auto;
+  position: relative;
 }
 
 h3 {
+  position: relative;
   text-align: center;
   font-family: 'Noto Kufi Arabic', sans-serif;
   direction: rtl;
 }
 
 #dateDiv {
+  position: relative;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
 
-blockquote {
+/* blockquote {
+  position: relative;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   margin: auto;
   padding-top: 5%;
   padding-bottom: 10%;
-}
+  z-index: 1;
+} */
 
 footer {
   position: fixed;
@@ -38,4 +44,48 @@ footer {
   font-family: 'Montserrat', sans-serif;
   width: 100%;
   text-align: center;
+}
+
+video {
+-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+--color-primary: #e5202b;
+--color-on-primary: #ffffff;
+--color-background: #ffffff;
+--color-background-secondary: #E9EAED;
+--color-on-background: #27292a;
+--color-primary-rgb: 229, 32, 43;
+--color-on-primary-rgb: 255, 255, 255;
+--color-background-rgb: 255, 255, 255;
+--color-background-secondary-rgb: 233, 234, 237;
+--color-on-background-rgb: 39, 41, 42;
+--color-background-brightness: 255;
+--button-corner-radius: 0px;
+--input-corner-radius: 0px;
+--image-corner-radius: 0px;
+--font-family-base: 'FF DIN Pro', sans-serif;
+--font-family-heading: 'FF DIN Pro Condensed', sans-serif;
+--font-weight-base: 500;
+--font-weight-base-bold: bold;
+--font-weight-heading: 900;
+--font-style-base: normal;
+--font-style-heading: italic;
+--text-transform-base: none;
+--text-transform-heading: uppercase;
+--logo-width: 48px;
+color: var(--color-on-background);
+font-family: var(--font-family-base);
+font-size: 1rem;
+line-height: 1.5;
+font-weight: var(--font-weight-base);
+text-transform: var(--text-transform-base);
+box-sizing: inherit;
+margin: 0;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+z-index: 0;
 }
